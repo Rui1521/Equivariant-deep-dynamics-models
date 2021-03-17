@@ -14,6 +14,22 @@ Recent work has shown deep learning can accelerate the prediction of physical dy
 * matplotlib
 * [e2cnn](https://github.com/QUVA-Lab/e2cnn)
 
+## Description
+1. Models/: 
+   * Non-Equ/, Magnitude-Equ/, Rotation-Equ/, Uniform-Equ/
+     1. model.py: TF-net pytorch implementation.
+     2. train.py: data loaders, train epoch, validation epoch, test epoch functions.
+     3. run_model.py: Scripts to train models.
+   * Scale-Equ/
+     1. model.py: TF-net pytorch implementation.
+     2. train.py: data loaders, train epoch, validation epoch, test epoch functions.
+     3. run_model.py: Scripts to train models.
+2. Evaluation/:
+   1. Evaluation.py: functions for computing RMSE and Energy Spectrum Errors.
+   2. radialProfile.py: FFT functions for calculating energy spectrum.
+3. Data Samples/: samples of Rayleigh–Bénard Convection data and Ocean Current data.
+
+
 ## Cite
 ```
 @inproceedings{wang2021incorporating,
